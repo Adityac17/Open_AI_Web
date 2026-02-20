@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OpenAI</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body>
+
+    <nav class="sidebar">
+        <div class="sidebar-top">
+            <div class="sidebar-logo">OpenAI</div>
+            <ul class="sidebar-links">
+                <li><a href="research.html">Research</a></li>
+                <li><a href="safety.html">Safety</a></li>
+                <li><a href="api.html">For Business</a></li>
+                <li><a href="https://openai.com/api/">For Developers</a></li>
+                <li><a href="index.html" class="active">ChatGPT</a></li>
+                <li><a href="https://sora.chatgpt.com/explore">Sora</a></li>
+                <li><a href="https://openai.com/codex/">Codex</a></li>
+                <li><a href="https://openai.com/stories/">Stories</a></li>
+                <li><a href="https://openai.com/about/">Company</a></li>
+                <li><a href="https://openai.com/news/company-announcements/">News</a></li>
+            </ul>
+        </div>
+        <div class="sidebar-bottom">
+            <a href="#" class="icon-link"><i class="fa-solid fa-arrows-rotate"></i></a>
+        </div>
+    </nav>
+
+    <main class="main-content">
+        
+        <div class="top-right-nav">
+            <a href="#" class="search-icon"><i class="fa-solid fa-magnifying-glass"></i></a>
+            <a href="#" class="login-btn-pill">Log in</a>
+        </div>
+
+        <section class="chat-section">
+            <h1 class="chat-headline">What can I help with?</h1>
+            
+            <form class="chat-input-wrapper" action="https://chatgpt.com/" method="get">
+                <input type="text" name="q" class="chat-input" placeholder="Message ChatGPT" autocomplete="off">
+                <button type="submit" class="chat-send-btn">
+                    <i class="fa-solid fa-arrow-up"></i>
+                </button>
+            </form>
+
+            <div class="chat-pills">
+                <a href="https://chatgpt.com/" class="pill"><i class="fa-solid fa-magnifying-glass"></i> Search with ChatGPT</a>
+                <a href="https://chatgpt.com/" class="pill"><i class="fa-regular fa-comments"></i> Talk with ChatGPT</a>
+                <a href="research.html" class="pill">Research</a>
+                <a href="https://sora.chatgpt.com/" class="pill">Sora</a>
+                <button class="pill">More</button>
+            </div>
+        </section>
+
+        <section class="content-container dashboard-layout">
+            <a href="https://openai.com/index/introducing-gpt-5-2-codex/" class="big-feature-card">
+                <img src="./img/c1.png" alt="Codex App" class="dashboard-img-large">
+                <div class="card-meta">
+                    <h2>Introducing the Codex app</h2>
+                    <span>Product · 7 min read</span>
+                </div>
+            </a>
+
+            <div class="scroll-list">
+                <a href="https://openai.com/index/prism/" class="list-card">
+                    <img src="./img/c2.png" alt="Prism" class="dashboard-img-small">
+                    <div class="list-meta">
+                        <h3>Introducing Prism</h3>
+                        <span>Product · 5 min read</span>
+                    </div>
+                </a>
+
+                <a href="https://openai.com/index/chatgpt-health/" class="list-card">
+                    <img src="./img/c3.png" alt="ChatGPT Health" class="dashboard-img-small">
+                    <div class="list-meta">
+                        <h3>Introducing ChatGPT Health</h3>
+                        <span>Product · 10 min read</span>
+                    </div>
+                </a>
+
+                <a href="https://openai.com/index/sora/" class="list-card">
+                    <img src="./img/c4.png" alt="Sora" class="dashboard-img-small">
+                    <div class="list-meta">
+                        <h3>Sora: Creating video from text</h3>
+                        <span>Research · 8 min read</span>
+                    </div>
+                </a>
+            </div>
+        </section>
+
+        <section class="content-container">
+            <div class="section-header">
+                <h2>Recent news</h2>
+                <a href="https://openai.com/news/" class="view-all">View more</a>
+            </div>
+        
+            <div class="news-grid">
+                <a href="https://openai.com/index/ads-in-chatgpt/" class="news-item">
+                    <img src="./img/n1.png" alt="News Image" class="news-image">
+                    <div class="news-text">
+                        <h3>Our approach to advertising and expanding access to ChatGPT</h3>
+                        <span>Company · Jan 16, 2026</span>
+                    </div>
+                </a>
+
+                <a href="https://openai.com/index/openai-for-healthcare/" class="news-item">
+                    <img src="./img/n2.png" alt="News Image" class="news-image">
+                    <div class="news-text">
+                        <h3>OpenAI for Healthcare</h3>
+                        <span>Product · Jan 8, 2026</span>
+                    </div>
+                </a>
+
+                <a href="https://openai.com/index/developers-can-now-submit-apps-to-chatgpt/" class="news-item">
+                    <img src="./img/n3.png" alt="News Image" class="news-image">
+                    <div class="news-text">
+                        <h3>Developers can now submit apps to ChatGPT</h3>
+                        <span>Product · Dec 17, 2025</span>
+                    </div>
+                </a>
+
+                <a href="https://openai.com/index/gpt-5-2-for-science-and-math/" class="news-item">
+                    <img src="./img/n4.png" alt="News Image" class="news-image">
+                    <div class="news-text">
+                        <h3>Advancing science and math with GPT-5.2</h3>
+                        <span>Publication · Dec 11, 2025</span>
+                    </div>
+                </a>
+
+                <a href="https://openai.com/index/introducing-gpt-5-2/" class="news-item">
+                    <img src="./img/n5.png" alt="News Image" class="news-image">
+                    <div class="news-text">
+                        <h3>Introducing GPT-5.2</h3>
+                        <span>Product · Dec 11, 2025</span>
+                    </div>
+                </a>
+
+                <a href="https://openai.com/index/ten-years/" class="news-item">
+                    <img src="./img/n6.png" alt="News Image" class="news-image">
+                    <div class="news-text">
+                        <h3>Ten years</h3>
+                        <span>Company · Dec 11, 2025</span>
+                    </div>
+                </a>
+            </div>
+        </section>
+
+        <section class="content-container">
+            <div class="section-header">
+                <h2>Stories</h2>
+                <a href="https://openai.com/stories/" class="view-all">View all</a>
+            </div>
+            
+            <div class="stories-grid">
+                <a href="https://openai.com/index/frontier-builders/" class="story-card large-story">
+                    <img src="./img/s1.png" alt="Frontier Builders" class="story-image">
+                    <div class="story-content">
+                        <h3>Frontier Builders</h3>
+                        <p>Meet the leaders putting machine intelligence to work.</p>
+                    </div>
+                </a>
+                
+                <a href="https://openai.com/index/creative-writing-with-gpt-5/" class="story-card">
+                    <img src="./img/s2.png" alt="Creative writing" class="story-image">
+                    <div class="story-content">
+                        <h3>Creative writing with GPT-5</h3>
+                        <p>GPT-5</p>
+                    </div>
+                </a>
+
+                <a href="https://openai.com/index/medical-research-with-gpt-5/" class="story-card">
+                    <img src="./img/s3.png" alt="Medical research" class="story-image">
+                    <div class="story-content">
+                        <h3>Medical research with GPT-5</h3>
+                        <p>GPT-5</p>
+                    </div>
+                </a>
+            </div>
+        </section>
+
+        <section class="content-container">
+            <div class="section-header">
+                <h2>Latest research</h2>
+                <a href="research.html" class="view-all">View all</a>
+            </div>
+            
+            <div class="research-grid">
+                <a href="https://openai.com/index/chain-of-thought-monitorability/" class="research-card">
+                    <img src="./img/lr1.png" alt="Research Image" class="card-image">
+                    <h3>Evaluating chain-of-thought monitorability</h3>
+                    <span>Research · Dec 18, 2025</span>
+                </a>
+
+                <a href="https://openai.com/index/frontierscience/" class="research-card">
+                    <img src="./img/lr2.png" alt="Research Image" class="card-image">
+                    <h3>Evaluating AI's ability to perform scientific research tasks</h3>
+                    <span>Research · Dec 16, 2025</span>
+                </a>
+
+                <a href="https://openai.com/index/measuring-biological-research/" class="research-card">
+                    <img src="./img/lr3.png" alt="Research Image" class="card-image">
+                    <h3>Measuring AI's capability to accelerate biological research</h3>
+                    <span>Research · Dec 16, 2025</span>
+                </a>
+            </div>
+        </section>
+
+        <section class="content-container">
+            <div class="section-header">
+                <h2>OpenAI for business</h2>
+                <a href="api.html" class="view-all">View all</a>
+            </div>
+            
+            <div class="research-grid">
+                <a href="https://openai.com/index/taisei/" class="research-card">
+                    <img src="./img/b1.png" alt="Business Image" class="card-image">
+                    <h3>Taisei Corporation shapes the next generation of talent with ChatGPT</h3>
+                    <span>ChatGPT</span>
+                </a>
+
+                <a href="https://openai.com/index/trustbank/" class="research-card">
+                    <img src="./img/b2.png" alt="Business Image" class="card-image">
+                    <h3>Powering tax donations with AI powered personalized recommendations</h3>
+                    <span>API</span>
+                </a>
+
+                <a href="https://openai.com/index/higgsfield/" class="research-card">
+                    <img src="./img/b3.png" alt="Business Image" class="card-image">
+                    <h3>How Higgsfield turns simple ideas into cinematic social videos</h3>
+                    <span>API</span>
+                </a>
+            </div>
+        </section>
+
+        <section class="cta-banner">
+            <div class="cta-text">
+                <h2>Get started with ChatGPT</h2>
+                <a href="https://chatgpt.com/download" class="cta-download-btn">Download</a>
+            </div>
+        </section>
+
+        <footer class="mega-footer">
+            <div class="footer-grid-layout">
+                <div class="footer-block">
+                    <h4>Our Research</h4>
+                    <a href="research.html">Research Index</a>
+                    <a href="https://openai.com/research/">Research Overview</a>
+                    <a href="https://openai.com/residency/">Research Residency</a>
+                    <a href="https://openai.com/science/">OpenAI for Science</a>
+                    
+                    <h4 class="mt-group">Latest Advancements</h4>
+                    <a href="https://openai.com/gpt-5/">GPT-5</a>
+                    <a href="https://openai.com/index/introducing-o3-and-o4-mini/">OpenAI o3</a>
+                    <a href="https://openai.com/index/introducing-o3-and-o4-mini/">OpenAI o4-mini</a>
+                    <a href="https://openai.com/index/gpt-4o-system-card/">GPT-4o</a>
+                    <a href="https://openai.com/index/gpt-4o-mini-advancing-cost-efficient-intelligence/">GPT-4o mini</a>
+                    <a href="https://openai.com/index/sora-system-card/">Sora</a>
+
+                    <h4 class="mt-group">Safety</h4>
+                    <a href="safety.html">Safety Approach</a>
+                    <a href="https://openai.com/security-and-privacy/">Security & Privacy</a>
+                    <a href="https://openai.com/trust-and-transparency/">Trust & Transparency</a>
+                </div>
+
+                <div class="footer-block">
+                    <h4>ChatGPT</h4>
+                    <a href="https://chatgpt.com/overview?openaicom-did=b336cd18-e449-405f-bee4-93b5ac92abb5&openaicom_referred=true">Explore ChatGPT ↗</a>
+                    <a href="https://chatgpt.com/business/business-plan?openaicom-did=b336cd18-e449-405f-bee4-93b5ac92abb5&openaicom_referred=true">Business</a>
+                    <a href="https://chatgpt.com/business/enterprise?openaicom_referred=true">Enterprise</a>
+                    <a href="https://chatgpt.com/business/education?openaicom_referred=true">Education</a>
+                    <a href="https://chatgpt.com/pricing?openaicom-did=b336cd18-e449-405f-bee4-93b5ac92abb5&openaicom_referred=true">Pricing ↗</a>
+                    <a href="https://chatgpt.com/download?openaicom-did=b336cd18-e449-405f-bee4-93b5ac92abb5&openaicom_referred=true">Download ↗</a>
+
+                    <h4 class="mt-group">Sora</h4>
+                    <a href="https://openai.com/sora/">Sora Overview</a>
+                    <a href="https://openai.com/sora/#features">Features</a>
+                    <a href="https://openai.com/sora/#pricing">Pricing</a>
+                    <a href="https://sora.com/">Sora log in ↗</a>
+
+                    <h4 class="mt-group">API Platform</h4>
+                    <a href="https://openai.com/api/">Platform Overview</a>
+                    <a href="https://openai.com/api/pricing/">Pricing</a>
+                    <a href="https://platform.openai.com/login">API log in ↗</a>
+                    <a href="https://platform.openai.com/docs/overview">Documentation ↗</a>
+                    <a href="https://community.openai.com/">Developer Forum ↗</a>
+                </div>
+
+                <div class="footer-block">
+                    <h4>For Business</h4>
+                    <a href="api.html">Business Overview</a>
+                    <a href="https://openai.com/solutions/">Solutions</a>
+                    <a href="https://openai.com/contact-sales/">Contact Sales</a>
+
+                    <h4 class="mt-group">Company</h4>
+                    <a href="https://openai.com/about/">About Us</a>
+                    <a href="https://openai.com/charter/">Our Charter</a>
+                    <a href="https://openai.com/foundation/">Foundation</a>
+                    <a href="https://openai.com/careers/">Careers</a>
+                    <a href="https://openai.com/brand/">Brand</a>
+
+                    <h4 class="mt-group">Support</h4>
+                    <a href="https://help.openai.com/">Help Center ↗</a>
+
+                    <h4 class="mt-group">More</h4>
+                    <a href="https://openai.com/news/">News</a>
+                    <a href="https://openai.com/stories/">Stories</a>
+                    <a href="https://openai.com/live/">Livestreams</a>
+                    <a href="https://openai.com/podcast/">Podcast</a>
+                    <a href="https://openai.com/news/rss.xml">RSS</a>
+                </div>
+
+                <div class="footer-block">
+                    <h4>Terms & Policies</h4>
+                    <a href="https://openai.com/policies/terms-of-use/">Terms of Use</a>
+                    <a href="https://openai.com/policies/privacy-policy/">Privacy Policy</a>
+                    <a href="https://openai.com/policies/">Other Policies</a>
+                </div>
+            </div>
+
+            <div class="footer-bottom-row">
+                <div class="footer-socials-left">
+                    <a href="https://x.com/OpenAI"><i class="fa-brands fa-x-twitter"></i></a>
+                    <a href="https://www.youtube.com/OpenAI"><i class="fa-brands fa-youtube"></i></a>
+                    <a href="https://www.linkedin.com/company/openai"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://github.com/openai"><i class="fa-brands fa-github"></i></a>
+                    <a href="https://www.instagram.com/openai/"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://www.tiktok.com/@openai"><i class="fa-brands fa-tiktok"></i></a>
+                    <a href="https://discord.gg/openai"><i class="fa-brands fa-discord"></i></a>
+                </div>
+                <div class="footer-center">
+                    <span>OpenAI © 2015–2026</span>
+                    <a href="#">Manage Cookies</a>
+                </div>
+                <div class="footer-right">
+                    <div class="lang-pill">English (United States)</div>
+                </div>
+            </div>
+        </footer>
+
+    </main>
+
+</body>
+</html>
