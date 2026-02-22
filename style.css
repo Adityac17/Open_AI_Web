@@ -1131,3 +1131,150 @@ img {
     84%, 96%  { width: 100%; }
     98%, 100% { width: 0; }
 }
+
+
+
+@media (max-width: 768px) {
+    body {
+        display: block; 
+        height: auto;
+        overflow-y: auto; 
+    }
+
+    .main-content {
+        height: auto;
+        overflow-y: visible;
+    }
+
+    .sidebar {
+        width: 100%;
+        height: auto;
+        padding: 16px;
+        border-right: none;
+        border-bottom: 1px solid #111;
+        flex-direction: column;
+    }
+
+    .sidebar-logo {
+        margin: 0 0 16px 0; 
+    }
+
+    .sidebar-links {
+        flex-direction: row;
+        flex-wrap: nowrap;
+        overflow-x: auto; 
+        padding-bottom: 8px; 
+        gap: 8px;
+        -ms-overflow-style: none; 
+        scrollbar-width: none; 
+    }
+    
+    .sidebar-links::-webkit-scrollbar { 
+        display: none; 
+    }
+
+    .sidebar-links li {
+        flex-shrink: 0; 
+    }
+
+    .sidebar-bottom {
+        display: none; 
+    }
+
+    .top-right-nav {
+        top: 16px;
+        right: 16px;
+        z-index: 100;
+    }
+
+    .grid-2, .grid-3, .grid-4 {
+        grid-template-columns: 1fr !important;
+    }
+
+    .dashboard-layout {
+        display: flex;
+        flex-direction: column;
+        height: auto;
+    }
+
+    .content-container, .page-container, .business-container, .research-container {
+        padding: 40px 24px;
+    }
+
+    .chat-section {
+        padding-top: 40px;
+        min-height: 40vh;
+    }
+
+    .chat-headline {
+        font-size: 28px;
+    }
+
+    .chat-input-wrapper {
+        padding: 12px 16px;
+        border-radius: 24px;
+    }
+
+    .chat-input, .typing-text {
+        font-size: 16px;
+    }
+
+    .big-hero-title {
+        font-size: 36px;
+    }
+
+    .feature-row, .reverse-layout {
+        flex-direction: column !important; 
+        gap: 32px;
+        margin-top: 60px;
+    }
+
+    .feature-text-block {
+        max-width: 100%;
+    }
+
+    .card-bottom-img {
+        height: 200px; 
+    }
+
+    .logos-row {
+        flex-wrap: wrap; 
+        justify-content: center;
+        gap: 20px;
+        font-size: 16px;
+    }
+
+    .big-feature-card {
+        min-height: 300px;
+    }
+
+    .scroll-list {
+        display: grid;
+        grid-template-columns: 1fr;
+        max-height: none; 
+        overflow: visible;
+    }
+
+    .mega-footer {
+        padding: 40px 24px 24px;
+    }
+
+    .footer-grid-layout {
+        gap: 32px;
+        margin-bottom: 40px;
+    }
+
+    .footer-bottom-row {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 16px;
+    }
+    
+    .footer-socials-left {
+        flex-wrap: wrap;
+    }
+
+    .decorative-circle {
+        display: none; 
+    }
+}
